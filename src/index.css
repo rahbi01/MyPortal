@@ -1,0 +1,26 @@
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0d1117;--bg2:#131924;--bg3:#1a2235;
+  --card:#17202e;--card2:#1d2840;--card3:#222f47;
+  --green:#22c55e;--green2:#16a34a;--gs:rgba(34,197,94,.12);
+  --blue:#3b82f6;--bs:rgba(59,130,246,.12);
+  --gold:#f59e0b;--gold2:#d97706;--golds:rgba(245,158,11,.12);
+  --purple:#a855f7;--ps:rgba(168,85,247,.12);
+  --red:#ef4444;--rs:rgba(239,68,68,.12);
+  --text:#dde3f0;--text2:#7c8ba4;--text3:#3e4d68;
+  --border:rgba(255,255,255,0.06);--border2:rgba(255,255,255,0.11);
+  --r:12px;--rs2:8px;--rx:6px;
+}
+body{
+  font-family:'Tajawal',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  direction:rtl;
+}
+button,input,select,textarea{font-family:inherit}
+input[type=range]{accent-color:var(--green);cursor:pointer}
+input[type=checkbox]{accent-color:var(--green)}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
